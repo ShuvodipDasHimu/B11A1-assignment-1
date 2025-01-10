@@ -184,7 +184,7 @@ main {
   width: 1280px;
   text-align: left;
   gap: 30px;
-  /* margin-bottom: 80px; */
+  margin-bottom: 80px;
 }
 
 .main-section-two-title h1 {
@@ -211,6 +211,10 @@ main {
   border-radius: 16px;
 }
 
+.blue-card p, .green-card p, .gold-card p {
+  opacity: 0.5;
+}
+
 .blue-card img, .green-card img, .gold-card img {
   width: 64px;
 }
@@ -229,23 +233,40 @@ background-color: rgba(198, 228, 214, 1);
 
 .blue-card-btn, .green-card-btn, .gold-card-btn {
   font-weight: 600;
+  font-size: 16px;
   color: white;
   border-radius: 8px;
   padding: 11px 20px;
   border: none;
   cursor: pointer;
+  transition: .4s ease-in-out;
 }
 
 .blue-card-btn {
   background-color: #5490F5;
 }
 
+.blue-card-btn:hover {
+  background-color: #125cdb;
+  transition: .4s ease-in-out;
+}
+
 .green-card-btn {
   background-color: #09A15C;
 }
 
+.green-card-btn:hover {
+  background-color: #047e47;
+  transition: .4s ease-in-out;
+}
+
 .gold-card-btn {
   background-color: #FFC239;
+}
+
+.gold-card-btn:hover {
+  background-color: #e08700;
+  transition: .4s ease-in-out;
 }
 
 /* Main Section Two Quote */
