@@ -60,6 +60,7 @@ header {
   align-items: center;
   /* justify-content: center; */
   flex-direction: column;
+  margin-bottom: 80px;
 }
 
 /* Navigation Bar */
@@ -109,3 +110,15 @@ nav h1 {
   font-size: 56px;
   font-weight: bold;
 }
+
+.header-banner-right {
+  margin-left: 34px;
+}
+
+.header-banner-right img {
+  height: 400px;
+  width: 474px;
+}
+
+/* Main Section */
+
