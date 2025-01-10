@@ -131,9 +131,7 @@ main {
   /* margin-top: 24px; */
 }
 
-main h1 {
-  text-align: left;
-}
+/* Main Section One */
 
 .main-section-one {
   display: flex;
@@ -148,6 +146,7 @@ main h1 {
   font-weight: bold;
   font-size: 40px;
   color: #0E0E0E;
+  text-align: left;
 }
 
 .cards {
@@ -175,4 +174,108 @@ main h1 {
 .card p {
   line-height: 1.3;
   opacity: .5;
+}
+
+/* Main Section Two */
+
+.main-section-two {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  text-align: left;
+  gap: 30px;
+  /* margin-bottom: 80px; */
+}
+
+.main-section-two-title h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main-section-two-description p {
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.cards-2 {
+  display: flex;
+  gap: 20px;
+}
+
+.blue-card, .green-card, .gold-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 32px;
+  width: 410px;
+  height: 325px;
+  border-radius: 16px;
+}
+
+.blue-card img, .green-card img, .gold-card img {
+  width: 64px;
+}
+
+.blue-card {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+
+.green-card {
+background-color: rgba(198, 228, 214, 1);
+}
+
+.gold-card {
+  background-color: rgba(247, 235, 207, 1);
+}
+
+.blue-card-btn, .green-card-btn, .gold-card-btn {
+  font-weight: 600;
+  color: white;
+  border-radius: 8px;
+  padding: 11px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.blue-card-btn {
+  background-color: #5490F5;
+}
+
+.green-card-btn {
+  background-color: #09A15C;
+}
+
+.gold-card-btn {
+  background-color: #FFC239;
+}
+
+/* Main Section Two Quote */
+
+.main-section-two-quote {
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2px; */
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+  background-color: white;
+  padding: 48px 24px;
+  border-radius: 16px;
+}
+
+.main-section-two-quote p {
+  opacity: .8;
+  color: rgba(14, 14, 14, 0.8);
+  line-height: 1.3;
+}
+
+.main-section-two-quote .quote-author {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.main-section-two-quote .quote-author-position {
+  opacity: .5;
+  margin-top: 4px;
 }
