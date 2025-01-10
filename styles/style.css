@@ -300,3 +300,69 @@ background-color: rgba(198, 228, 214, 1);
   opacity: .5;
   margin-top: 4px;
 }
+
+/* Main Section Three */
+
+.main-section-three {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-section-three h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.main-section-three-survey {
+  padding: 32px;
+  /* height: 310px; */
+  background-color: #fff;
+  width: 1280px;
+  border-radius: 16px;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  border-collapse: collapse;
+}
+
+.table-header {
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  padding: 20px;
+  background-color: rgba(198, 228, 214, 1);
+
+}
+
+.table-header-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-header-row td {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.table-border, .table-border2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.397);
+  border-right: 1px solid rgba(0, 0, 0, 0.397);
+  border-left: 1px solid rgba(0, 0, 0, 0.397);
+  padding: 20px;
+  width: 90%;
+}
+
+.table-border {
+  font-weight: 600;
+}
+
+.table-border2 select{
+  margin: 10px 36px;
+  padding: 10px 15px;
+  background-color: rgba(198, 228, 214, 1);
+  border: 2px solid rgba(0, 0, 0, 0.397)  ;
+  border-radius: 4px; 
+  font-weight: bold;
+}
