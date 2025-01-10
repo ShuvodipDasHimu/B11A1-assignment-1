@@ -172,6 +172,13 @@ main {
   border-radius: 16px;
   padding: 30px;
   border: 1px solid rgba(14, 14, 14, 0.15);
+  transition: .5s ease-in;
+}
+
+.card:hover {
+  background-color: #51ecc52f;
+  cursor: pointer;
+  transition: .5s ease-out;
 }
 
 .card img {
@@ -543,4 +550,33 @@ table {
   border-bottom-left-radius: 8px;
   border: none;
   height: 56px;
+}
+
+/* Footer Section */
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 50px;
+  width: 100%;
+}
+
+footer h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+footer hr {
+  width: 1122px;
+  opacity: .8;
+  /* text-align: center; */
+  align-self: center;
+}
+
+.footer-social-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
 }
